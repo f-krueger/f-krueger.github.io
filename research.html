@@ -1,147 +1,289 @@
-<!DOCTYPE HTML>
-<!--
-	Ex Machina by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Frank Krüger</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,300,700' rel='stylesheet' type='text/css'>
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-	</head>
-	<body class="no-sidebar">
+<!DOCTYPE html>
+<html lang="en">
 
-	<!-- Header -->
-		<div id="header">
-			<div class="container">
-					
-				<!-- Logo -->
-					<div id="logo">
-						<h1><a href="#">Frank Krüger</a></h1>
-					</div>
-				
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">About</a></li>
-							<li class="active"><a href="research.html">Research</a></li>
-							<li><a href="publications.html">Publications</a></li>
-							<li><a href="teaching.html">Teaching</a></li>
-						</ul>
-					</nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        crossorigin="anonymous" />
+</head>
 
-			</div>
-		</div>
-	<!-- Header -->
-		
-	<!-- Banner -->
-		<div id="banner">
-			<div class="container">
-			</div>
-		</div>
-	<!-- /Banner -->
+<body>
 
-	<!-- Main -->
-		<div id="page">
-				
-			<!-- Main -->
-			<div id="main" class="container">
-				<div class="row">
-					<div class="12u">
-						<section>
-							<header>
-								<h2>Research</h2>
-							</header>
-							<p>
-								My research interests include Data Science, Natural Language Processing, and Research Data Management with a strong focus on <em>Open Science</em> and <em>Reproducibility</em>.
-								My work focusses on methods for information and data management by using techniques of natural language processing and data mining in multiple disciplines such as life-, natural-, and information sciences, but also Digital Humanities and Theology.
-							</p>
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="logo">Frank Krüger</a>
+            <ul class="nav-list">
+                <li><a href="index.html">About</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="research.html" class="active">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Open menu"><span class="hamburger"></span></button>
+        </nav>
+        <section class="hero">
+            <img src="img/banner.jpg" alt="Baltic Sea" class="hero-img">
+            <div class="hero-text">
+                <h1>Frank Krüger</h1>
+                <p>Data Science and Machine Learning<br>Wismar University of Applied Sciences</p>
+            </div>
 
 
-							<p>Currently, I am PI of the following projects and lead sub projects for <em>Data Literacy</em> and <em>Research Data Management</em>.</p>
-							
-							
-							<h2 id="research-data-management--crc-1270-elaine">Research Data Management @ CRC 1270 ELAINE</h2>
-							<p>
-								The research vision pursued by the <a href="https://www.elaine.uni-rostock.de/en">Collaborative Research Centre 1270 ELAINE</a> focuses on novel electrically active implants. Specifically, we address implants employed for the regeneration of bone and cartilage, and implants for deep brain stimulation to treat movement disorders.
-							</p>
-							<p>
-								The <a href="https://www.elaine.uni-rostock.de/en/projects/service-projects/project-inf">infrastructure support project</a> addresses the professional management of research data raised, processed and archived in the research projects. Its overarching goal is to ensure the quality, productivity and competitiveness of the CRC in terms of data management. A comprehensive data management plan will be negotiated and implemented. A training and qualification programme for the foundations of reproducible research, open science and data management will also be provided. The promotion of open science is a central objective.
-							</p>
-							<p>
-								The virtual research environment of the CRC 1270 ELAINE enables the web-based collaboration of the involved researchers during the entire research process, i.e. starting at the research hypothesis and ending at the publication of the research results. This improves the reproducibility and the traceability of the scientific investigations by providing central mechanisms for storage, exchange and documentation of research data and software. For this purpose specialised services are employed and integrated into each other.
-							</p>
-							<p>
-								Central research aspects are:
-							</p>
-							<ol>
-								<li>Collaboration in multiple disciplinary research projects in virtual research environments</li>
-								<li>Traceability of research processes and Quality assurance of research data by standardized documentation and automatic processed</li>
-								<li>Semantic documentation of research data and processes by natural language processing</li>
-							</ol>
-							<ul>
-								<li>
-									<strong>Duration</strong>: 2021&#8211;2025
-								</li>
-								<li>
-									<strong>Funder</strong>: <a href="https://www.dfg.de/">DFG</a>
-								</li>
-							</ul>
-							<p>
-								<a href="https://www.elaine.uni-rostock.de/en">More information</a>
-							</p>
+            <!-- 2️⃣  Flex container that holds the profile picture + text -->
+            <div class="hero-profile">
+                <!-- Profile picture -->
+                <div class="hero-profile">
+                    <img src="img/FK_500_square.jpg" alt="Frank Krüger" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main class="content">
+        <section class="page-header">
+            <h1>Research</h1>
+        </section>
+
+        <section class="research">
+            <h2>Research Interests</h2>
+            My research interests include Data Science, Natural Language Processing, and Research Data Management with a
+            strong focus on Open Science and Reproducibility. My work focusses on methods for information and data
+            management by using techniques of natural language processing and data mining in multiple disciplines such
+            as life-, natural-, and information sciences, but also Digital Humanities and Theology.
+
+            <ul class="interest-list">
+                <li><strong>Natural Language Processing and Information Extraktion</strong></li>
+                <li><strong>Data Integration and Knowledge Graphs</strong></li>
+                <li><strong>Artificial Intelligence and Research Data Management</strong></li>
+            </ul>
+
+            <!-- ====================  PROJECT OVERVIEW  ==================== -->
+            <section class="projects-overview">
+                <h2>Selected Current and Past Projects</h2>
+
+                <div class="project-list">
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="img/Elaine_logo.png" alt="Electrically Active Implants" loading="lazy">
+                        </div>
+
+                        <div class="project-content">
+                            <h3 class="project-title">SFB 1270 ELAINE - Electrically Active Implants - Subproject
+                                Information Infrastructure (3rd funding period)</h3>
+                            <p class="project-summary">
+                                The infrastructure support project addresses the professional management of research
+                                data raised, processed and archived in the research projects.
+
+                                Its overarching goal is to ensure the quality, productivity and competitiveness of the
+                                CRC in terms of data management. A comprehensive data management plan will be negotiated
+                                and implemented. A training and qualification programme for the foundations of
+                                reproducible research, open science and data management will also be provided. The
+                                promotion of open science is a central objective.
+                            <ul>
+                                <li>
+                                    <strong>Duration</strong>: 2026–2029
+                                </li>
+                                <li>
+                                    <strong>Funder</strong>: <a href="https://www.dfg.de/">DFG</a>
+                                </li>
+                            </ul>
+                            <p>
+                                <a href="https://www.elaine.uni-rostock.de/en">More information</a>
+                            </p>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <img src="img/GenderVarianten_logo_sw.png" alt="GenderVarianten" loading="lazy">
+                        </div>
+
+                        <div class="project-content">
+                            <h3 class="project-title">GenderVarianten</h3>
+                            <p class="project-summary">
+                                The project combines New Testament textual criticism, analyses of the reception of
+                                gender constructions, and information science research as well as systematic-ethical
+                                investigations.
+
+                                The central concern of the project is to analyze how digitally assisted research can
+                                help interdisciplinary gender studies to new possibilities in analyzing the transmission
+                                of texts and the related uncovering of gender understandings. This will demonstrate in
+                                an interdisciplinary manner:
+                            <ol>
+                                <li> digitization in New Testament scholarship, and in particular in textual criticism,
+                                    can help to gain new insights, especially with regard to gender studies,</li>
+                                <li> the help of these instruments, theological gender research is to be advanced with
+                                    regard to insights into textual evidence of variations as well as the creation of
+                                    editions in view of the construction of gender, and the question of remembering,
+                                    handing down and forgetting is to be addressed from a hermeneuticethical point of
+                                    view,</li>
+                                <li>information-scientific methods for the automatic identification of gender-specific
+                                    changes in edition and revision histories are to be developed.</li>
+                            </ol>
+                            These multidimensional aspects, which encompass the plurality of gender conceptions and
+                            textual variants, are subsumed under the term GenderVariants. The notation expresses that
+                            LGBTQIA+ intersectionality is examined multidimensionally: gender ascriptions are uncovered
+                            in texts and redactions are traced. Historical contextualization as well as principles of
+                            change or patterns are elaborated. These findings are linked to contemporary histories of
+                            revision. It will be taken into account that gender conceptions in the sense of an
+                            intersectional approach are also in relation to discriminations based on social status,
+                            origin, appearance, etc. and, to this end, even the conceptions of "masculine" and
+                            "feminine" are not to be understood essentialistically, but can be designed fluidly.
+
+                            The extent to which methods of automatic textual analysis are suitable for identifying
+                            gender-specific differences between different variants and editions will be investigated. In
+                            addition to the New Testament texts, the automatic identification methods are applied to
+                            Wikipedia revision histories. This will enable both the generalizability of the methods and
+                            their direct application in the analysis of current gender issues. The research project
+                            contributes to the research the desiderata in theology, gender studies and computer
+                            science.
+                            <ul>
+                                <li>
+                                    <strong>Duration</strong>: 2023–2027
+                                </li>
+                                <li>
+                                    <strong>Funder</strong>: <a href="https://www.dfg.de/">DFG</a>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+
+                    </article>
 
 
-							<h2 id="data-literacy--digital-campus-rostock-dicaro">Data Literacy @ Digital Campus Rostock (DiCaRo)</h2>
-							<p>
-								The aim of DiCaRo is to develop an interdisciplinary and interfaculty module in the elective area of the study programs of the University of Rostock, starting with the Faculty of Theology and the Faculty of Computer Science and Electrical Engineering. At its core is an interdisciplinary teaching and training concept, &#8220;Data Literacy&#8221;, which aims to promote a whole range of information and data competencies, starting with a basic understanding of the mechanisms of data processing and analysis, through critical source reflection, to social and ethical implications in the context of digitalization. The module will be made available as an open educational resource.
-							</p>
-							<p>
-								The goal of the sub project <a href="https://www.dicaro.uni-rostock.de/en/teilprojekte/diss-data-literacy/"><em>Digital Scholar Ship</em></a> is the development of open educational resources for interdisciplinary data literacy education. We aim at developing an interdisciplinary and interfaculty module in the elective area of the study programs of the University of Rostock, starting with the Faculty of Theology and the Faculty of Computer Science and Electrical Engineering. Data Literacy aims to promote a whole range of information and data competencies, starting with a basic understanding of the mechanisms of data processing and analysis, through critical source reflection, to social and ethical implications in the context of digitalization.
-							</p>
-							<ul>
-								<li>
-									<strong>Duration</strong>: 2021&#8211;2024
-								</li>
-								<li>
-									<strong>Funder</strong>: <a href="https://stiftung-hochschullehre.de/">Stiftung Innovation in der Hochschullehre</a>
-								</li>
-							</ul>
-							<p>
-								<a href="https://www.dicaro.uni-rostock.de/en/">More information</a>
-							</p>
 
-						</section>
-					</div>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="img/ScannedTables.jpg" alt="ScannedTables" loading="lazy">
+                        </div>
 
-				</div>
-			</div>
-			<!-- Main -->
+                        <div class="project-content">
+                            <h3 class="project-title">Tool support for the automatic extraction of table data from
+                                historical
+                                journals</h3>
+                            <p class="project-summary">
+                                Qualitative and quantitative data analyses require a structured database in all
+                                specialist
+                                disciplines.
+                                Textual data, such as that found in newspapers, is often provided with additional
+                                tabular data
+                                in order to communicate information in a structured manner.
+                                At first glance, such tables appear structured, but in most cases they are to be
+                                regarded as
+                                semi-structured or unstructured, as it is often not possible to access individual
+                                elements of
+                                the data set in a targeted manner.
 
-		</div>
-	<!-- /Main -->
+                                The aim of this project is to investigate the extent to which existing solutions for
+                                table
+                                extraction can be applied to historical journals.
+                                The aim is to develop a toolchain that allows tables with personal data to be extracted
+                                and
+                                processed in a reproducible manner using the historical journal <em>Swinemünder
+                                    Badeanzeiger</em> in order to be used as a database for subsequent analysis.
+
+                                The project is funded as cooperation project within the <a
+                                    href="https://text-plus.org/en/">NFDI
+                                    Consortium Text+</a>.
+                            <ul>
+                                <li>
+                                    <strong>Duration</strong>: 2024
+                                </li>
+                                <li>
+                                    <strong>Funder</strong>: <a href="https://www.dfg.de/">DFG</a>
+                                </li>
+                                <li>
+                                    <strong>Additional Information</strong>
+                                    <a href="https://text-plus.org/">Text+</a>
+                                    <a
+                                        href="https://www.hs-wismar.de/forschung/aus-der-forschung/fdb/detail/n/scannedtables/">Research
+                                        Projects @ Wismar university of Applied Sciences</a>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="img/DKMV.jpg" alt="Datenkompass MV" loading="lazy">
+                        </div>
+
+                        <div class="project-content">
+                            <h3 class="project-title">Datenkompass M-V: Competence Network for Research Data in Mecklenburg-Vorpommern</h3>
+                            <p class="project-summary">
+                                The Datenkompass M-V (DKMV) supports the interdisciplinary acquisition of application-oriented competencies in the fields of research data management and data science.
+
+The Datenkompass Mecklenburg-Vorpommern (DKMV) project aims to establish a data competency network in M-V. The goal is to consolidate the strengths of scientific institutions to facilitate access for researchers and research-oriented businesses in the field of data sciences. DKMV supports the interdisciplinary acquisition of application-oriented skills in research data management and data science at all levels of the scientific career. The network covers the entire data lifecycle and extends across locations in M-V.
+
+Teaching and learning materials, software tools, and guidelines are provided through a central platform. The target audience includes scientific and technical staff, scholarship recipients, as well as research-oriented businesses in M-V. One of DKMV's strengths lies in the breadth of data science methods, including machine learning, statistical methods, signal processing, modeling complex systems, research data management, and data annotation. The use of Open and FAIR Data concepts makes the developed offerings accessible to other interested parties.
+
+The Data Compass M-V connects the competencies of individual universities and research institutions to provide high-quality services. The platform enables a systematic and sustainable development of data competency in MV. DKMV benefits from collaboration with various higher education institutions in M-V:
+                            <ul>
+                                <li>
+                                    <strong>Duration</strong>: 2023–2024
+                                </li>
+                                <li>
+                                    <strong>Funder</strong>: <a href="https://www.regierung-mv.de/Landesregierung/wkm/">Ministry of Science, Culture, Federal and European Affairs (WKM M-V) </a>
+                                </li>
+                            </ul>
+                            <p>
+                                <a href="https://datenkompass-mv.de/">More information</a>
+                            </p>
+                            </p>
+                        </div>
+                    </article>
+                    
+                </div>
+            </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Frank Krüger. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://scholar.google.com/citations?user=Z75kea4AAAAJ" title="Google Scholar" target="_blank"
+                rel="noopener">
+                <i class="fab fa-google-scholar"></i>
+            </a>
+
+            <a href="https://www.researchgate.net/profile/Frank-Krueger-2" title="ResearchGate" target="_blank"
+                rel="noopener">
+                <i class="fab fa-researchgate"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/frank-kr%C3%BCger-826b8a1b8/" title="LinkedIn" target="_blank"
+                rel="noopener">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="https://mstdn.science/@frankkrueger/" title="Mastodon" target="_blank" rel="noopener">
+                <i class="fab fa-mastodon"></i>
+            </a>
+
+            <a href="https://github.com/f-krueger" title="Github" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://orcid.org/0000-0002-7925-3363" title="ORCID" target="_blank" rel="noopener">
+                <i class="fab fa-orcid"></i>
+            </a>
+        </div>
+    </footer>
 
 
-	<!-- Copyright -->
-		<div id="copyright" class="container">
-			Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
-		</div>
+    <script>
+        const toggle = document.querySelector('.nav-toggle');
+        const navList = document.querySelector('.nav-list');
+        toggle.addEventListener('click', () => navList.classList.toggle('open'));
+    </script>
 
+</body>
 
-	</body>
 </html>
