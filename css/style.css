@@ -193,35 +193,6 @@ a:hover {
   }
 
 /* -------------------------------------------------
-   Responsive tweaks
-   ------------------------------------------------- */
-@media (max-width: 768px) {
-    .nav-list {
-        z-index: 5;
-        position: absolute;
-        top: 2em;
-        right: 150px;
-        background: #0b1c2b;
-        flex-direction: column;
-        width: 200px;
-        padding: 1rem;
-        gap: .8rem;
-        transform: translateX(100%);
-        transition: transform .3s ease-in-out;
-    }
-    .nav-list.open {
-        transform: translateX(0);
-    }
-    .nav-toggle {
-        display: block;
-    }
-    .hero-img {
-        height: 200px;
-    }
-    .hero-text h1 { font-size: 2rem; }
-    .hero-text p  { font-size: 1rem; }
-}
-/* -------------------------------------------------
    2️⃣  Full‑width project panels (image left, text right)
    ------------------------------------------------- */
 
@@ -351,7 +322,12 @@ a:hover {
 
 /* ---- responsive: stack image on top for narrow screens ---- */
 @media (max-width: 768px) {
-    .project-link {
+     .hero-img {
+        height: 200px;
+    }
+    .hero-text h1 { font-size: 2rem; }
+    .hero-text p  { font-size: 1rem; }
+   .project-link {
         flex-direction: column;
     }
     .project-image,
