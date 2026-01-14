@@ -197,9 +197,10 @@ a:hover {
    ------------------------------------------------- */
 @media (max-width: 768px) {
     .nav-list {
+        z-index: 5;
         position: absolute;
-        top: 100%;
-        right: 0;
+        top: 2em;
+        right: 150px;
         background: #0b1c2b;
         flex-direction: column;
         width: 200px;
